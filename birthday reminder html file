@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Reminder</title>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Birthday Reminder</h1>
+            <p>Never forget a birthday again</p>
+        </header>
+    </div>
+
+    <main>
+        <form id="reminderForm">
+          
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter the name" required>
+          </div>
+        
+          <div>
+            <label for="birthday">Birthday</label>
+            <input type="date" id="birthday" name="birthday" required>
+          </div>
+        
+          <div>
+            <label for="email" >Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter the email" required>
+          </div>
+        
+          <div>
+            <label for="note">Note</label>
+            <input type="text" id="note" name="note" placeholder="Enter a note. e.g:Dont forget to get a gift for julie" required>
+          </div>
+
+          <button type="submit">
+          Set Reminder
+        </button>
+      </form>
+    </main>
+
+  </div>
+</body>
+</html>
